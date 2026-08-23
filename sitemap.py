@@ -1,0 +1,1 @@
+def build(urls): return f'<urlset>' + ''.join(f'<url><loc>{u}</loc></url>' for u in urls) + '</urlset>'
